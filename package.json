@@ -2,6 +2,7 @@
   "name": "hp-db",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://iamchrisep.github.io/hp-db",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
