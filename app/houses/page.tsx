@@ -1,3 +1,5 @@
+'use client';
+
 import NavCard from '@/components/NavCard';
 import gryffindor from '@/public/gryffindor.jpg';
 import hufflepuff from '@/public/hufflepuff.jpg';
