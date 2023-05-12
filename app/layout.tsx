@@ -57,7 +57,7 @@ export default function RootLayout({
                             </a>
                         </div>
                         <div className="flex gap-x-2">
-                            <span>Illustration by</span>
+                            <span>Illustrations by</span>
                             <a
                                 href="https://apolar.artstation.com/"
                                 target="_blank"
