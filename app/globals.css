@@ -16,7 +16,7 @@
 body {
     color: var(--foreground);
     background-color: var(--background);
-    background-image: url('/stardust.png');
+    background-image: url('@/public/stardust.png');
 }
 
 @layer components {
