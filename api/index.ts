@@ -1,3 +1,5 @@
+'use client'
+
 import useSWR from 'swr';
 import { ICharacter, ISpell } from '@/api/types';
 
