@@ -3,9 +3,8 @@
 import { useHouse } from '@/api';
 import Character from '@/components/Character';
 
-// @ts-ignore
-export default function House({ params }) {
-    const { houseCharacters, isError, isLoading } = useHouse(params.slug);
+export default function Gryffindor() {
+    const { houseCharacters, isError, isLoading } = useHouse('gryffindor');
 
     if (isError) return <div>Failed to load</div>;
     if (isLoading) return <div>Loading...</div>;
