@@ -1,6 +1,5 @@
 import React from 'react';
 import './globals.css';
-import Link from 'next/link';
 import Image from 'next/image';
 import { Convergence } from 'next/font/google';
 import MouseContextProvider from '@/context/mouseContext';
@@ -30,7 +29,7 @@ export default function RootLayout({
                     }}
                 >
                     <header className="flex flex-col items-center mb-16">
-                        <Link
+                        <a
                             href="/"
                             className="flex flex-col items-center"
                         >
@@ -39,7 +38,7 @@ export default function RootLayout({
                                 alt="Harry Potter"
                             />
                             <h3 className="text-xl mt-8">The Unofficial Database of Harry Potter Characters and Spells</h3>
-                        </Link>
+                        </a>
                     </header>
                     <main className="flex flex-col items-center">
                         {children}
