@@ -30,7 +30,7 @@ export default function RootLayout({
                 >
                     <header className="flex flex-col items-center mb-16">
                         <a
-                            href="/"
+                            href="/hp-db"
                             className="flex flex-col items-center"
                         >
                             <Image
