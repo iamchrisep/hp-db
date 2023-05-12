@@ -3,6 +3,7 @@
 import { useHouse } from '@/api';
 import Character from '@/components/Character';
 
+// @ts-ignore
 export default function House({ params }) {
     const { houseCharacters, isError, isLoading } = useHouse(params.slug);
 
