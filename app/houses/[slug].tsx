@@ -1,12 +1,9 @@
 'use client';
 
-import { useParams } from 'next/navigation';
 import { useHouse } from '@/api';
 import Character from '@/components/Character';
 
-export default function House() {
-    const params = useParams();
-
+export default function House({ params }) {
     const { houseCharacters, isError, isLoading } = useHouse(params.slug);
 
     if (isError) return <div>Failed to load</div>;
