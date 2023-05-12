@@ -6,6 +6,7 @@ import { Convergence } from 'next/font/google';
 import MouseContextProvider from '@/context/mouseContext';
 import Cursor from '@/components/Cursor';
 import logo from '@/public/logo.png';
+import stardust from '@/public/stardust.png';
 
 const convergence = Convergence({ weight: '400', subsets: ['latin'] });
 
@@ -22,7 +23,12 @@ export default function RootLayout({
     return (
         <MouseContextProvider>
             <html lang="en">
-                <body className={`p-24 min-h-screen ${convergence.className}`}>
+                <body
+                    className={`p-24 min-h-screen ${convergence.className}`}
+                    style={{
+                        backgroundImage: `url(${stardust.src})`,
+                    }}
+                >
                     <header className="flex flex-col items-center mb-16">
                         <Link
                             href="/"
