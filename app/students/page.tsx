@@ -1,5 +1,3 @@
-'use client';
-
 import { useStudents } from '@/api';
 import Character from '@/components/Character';
 

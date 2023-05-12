@@ -1,5 +1,3 @@
-'use client';
-
 import NavCard from '@/components/NavCard';
 import gryffindor from '@/public/gryffindor.jpg';
 import hufflepuff from '@/public/hufflepuff.jpg';
@@ -11,7 +9,7 @@ export default function Houses() {
         <div className="grid grid-cols-4 gap-12">
             <div className="flex flex-col h-full">
                 <NavCard
-                    linkHref="/houses/[gryffindor]"
+                    linkHref="/houses/gryffindor"
                     text="Gryffindor"
                     img={gryffindor}
                 />
@@ -30,7 +28,7 @@ export default function Houses() {
             </div>
             <div className="flex flex-col h-full">
                 <NavCard
-                    linkHref="/houses/[hufflepuff]"
+                    linkHref="/houses/hufflepuff"
                     text="Hufflepuff"
                     img={hufflepuff}
                 />
@@ -49,7 +47,7 @@ export default function Houses() {
             </div>
             <div className="flex flex-col h-full">
                 <NavCard
-                    linkHref="/houses/[ravenclaw]"
+                    linkHref="/houses/ravenclaw"
                     text="Ravenclaw"
                     img={ravenclaw}
                 />
@@ -68,7 +66,7 @@ export default function Houses() {
             </div>
             <div className="flex flex-col h-full">
                 <NavCard
-                    linkHref="/houses/[slytherin]"
+                    linkHref="/houses/slytherin"
                     text="Slytherin"
                     img={slytherin}
                 />

@@ -1,5 +1,3 @@
-'use client';
-
 import { useStaff } from '@/api';
 import Character from '@/components/Character';
 

@@ -1,5 +1,3 @@
-'use client';
-
 import { useSpells } from '@/api';
 import { Macondo } from 'next/font/google';
 
